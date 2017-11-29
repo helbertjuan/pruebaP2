@@ -1,0 +1,928 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+	width: 100%;
+	margin:0 auto;
+
+}
+
+
+
+/*logo*/
+
+header div .row{
+	padding-top: 16px;
+	width: 100%;
+	margin-right: 0;
+	margin-right: 0;
+
+}
+
+
+header .contenedor-logo .logo{
+	width: 150px;
+
+}
+
+/*ACA PISO LO DE BOTSTRAP PARA PODER CENTRARLO PRIMERO 
+EL LOGO DESPUES EL MENU*/
+header .contenedor-menu.col-md-12{
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+
+header .contenedor-logo.col-md-4{
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+/*HASTA ACA*/
+header .icono ul{
+	float: right;
+
+
+}
+
+header .icono ul li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 10px;
+
+}
+
+
+header .buscador:after{
+
+	content:"\f002";
+	font: normal normal normal 14px/1 FontAwesome;
+		
+	font-size: 20px;
+	
+
+
+
+}
+
+
+header .usuario:after{
+
+
+	content:"\f007";
+	font: normal normal normal 14px/1 FontAwesome;
+		
+	font-size: 20px;
+	
+
+
+}
+ .compras:after{
+
+
+
+	font: normal normal normal 14px/1 FontAwesome;
+	
+    font-size: 20px;
+  	
+    content:"\f290";
+    
+
+	
+}
+
+
+
+/*menu*/
+
+.menu {
+    display: inline-block;
+    /* width: 100%; */
+    text-align: center;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+
+header .menu .lista{
+	float: left;
+	display: inline-block;
+	width: 100%;
+	font-weight: 700;
+
+}
+
+header .menu-dos li{
+	
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 23.66px;
+
+}
+
+
+header li a{
+
+	text-decoration: none;
+	color: black;
+	
+	
+
+} 
+
+
+li:hover a {
+	text-decoration: none;
+	color: black;
+	width: 74px;
+	height: 40px;
+	opacity: 0.95;
+
+
+
+}
+
+.lista-uno{
+	padding: 0 20px;
+	line-height: 46px;
+}
+
+header .menu .lista .lista-uno{
+	list-style: none;
+	float: left;
+	padding-left: 20px;
+	
+	
+}
+
+header .menu .lista .desplegable:after{
+	content:"\f078";
+	font: normal normal normal 14px/1 FontAwesome;
+		
+	font-size: 12px;
+	padding-left: 8px;
+
+}
+
+
+/*MENU DOS*/
+
+
+.menu-dos {
+    list-style: none;
+    float: left;
+    text-align: left;
+    border-left: 1px solid #dddddd;
+    height: 260px;
+    padding-right: 70px;
+    padding-left: 20px;
+}
+
+.primero{
+
+	border-left: 0px;
+
+
+}
+
+.menu-dos ul{
+
+	padding-left: 1px;
+	
+}
+
+
+
+.lista .lista-uno:hover{
+	background-color:#eeeeee;
+
+
+
+}
+.lista .lista-uno:hover .column{
+	display: block;
+	opacity: 0.93;
+	padding: 35px;
+   overflow: visible;
+   max-height: initial;
+
+
+}
+
+/*movimiento menu dos*/
+
+.column ul.menu-dos li:hover{
+	padding-left: 10px;
+
+  	cursor: pointer;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+
+}
+
+
+
+
+
+
+header .row .column .menu-dos li{
+	font-size: 10px;
+	padding-top: 5px;
+	font-weight: 400;
+}
+
+header .column .menu-dos li:before{
+
+	content:"\f105";
+	font: normal normal normal 14px/1 FontAwesome;
+
+	padding-right: 8px;
+	padding-left: 8px;
+	letter-spacing: 0.86px;
+    font-size: 10px;
+
+
+}
+
+
+
+/* DIV */
+
+.column {
+	display: none;
+	position: absolute;
+    width: 100%;
+    left: 0;
+    background-color:#eeeeee;
+
+}
+
+
+/*imagen menu*/
+
+
+.foto {
+    width: 230px;
+    float: right;
+    margin-right: 70px;
+}
+
+
+/*clase abrir para cambiar icono menu*/
+
+
+header .menu .lista .desplegable.abrir:after{
+	content:"\f077";
+	font: normal normal normal 14px/1 FontAwesome;
+		
+	font-size: 12px;
+	padding-left: 8px;
+
+}
+
+
+
+
+
+header ul {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+
+/* Arranca el cuerpo de la pagina*/
+
+section .primera{
+	width: 100%;
+}
+
+/*imagen fondo*/
+
+.imagen-fondo{
+	width: 100%;
+
+
+}
+
+
+
+.segunda{
+	text-align: center;
+	padding: 3px;
+
+
+}
+
+.cuerpo .imagen-segunda{
+	padding: 15px;
+
+}
+
+.tercera{
+	text-align: center;
+}
+
+.cuerpo .imagen-tercera{
+	padding: 15px;
+	z-index: -999;
+	
+}
+
+
+.tercera, .imagen-tercera{
+	position: relative;
+
+
+}
+
+.botones-man-women{
+	width: 100%;
+	height: 50px;
+}
+
+section .tercera .arrivals-menu{
+	width: 25%;
+	display: flex;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.arrivals-menu a {
+   color: #000;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 38px;
+   background: rgba(255,255,255,0.5);
+   position: relative;
+   margin: 0;
+   padding: 0px 15px;
+   min-width: 180px;
+   display: inline-block;
+   text-decoration: none;
+   text-transform: uppercase;
+  	text-decoration: none;
+}
+
+.tercera .arrivals-menu .inicia-men{
+	background-color: white;
+}
+
+.tercera .arrivals-menu .inicia-women.open{
+	background-color: white;
+
+}
+
+.arrivals-menu a{
+
+	color:black;
+
+
+}
+.arrivals-menu{
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+}
+
+/*section cuarta*/
+li{
+	list-style: none
+
+
+}
+
+.menu-cuatro .lista-cuatro{
+	width: 100%;
+	text-align: center;
+}
+
+.menu-cuatro .lista-cuatro li{
+
+	display: inline-block;
+	margin:0 auto;
+	margin:10px;
+
+
+}
+
+.menu-cuatro .lista-cuatro li:hover{
+
+	box-shadow: 0px 0px 10px  #999;
+}
+
+.imagenes-mujer{
+	width: 366px;
+	height: 370px;
+}
+
+
+.arrivals-menu .inicia{
+	background-color: white;
+
+
+}
+
+.cucarda{
+	    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: #b94d00;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.imagen-position{
+	position: relative;
+	
+}
+
+
+/*movimiento del menu*/
+
+.header-menu.sticky {
+    transition: transform 1s;
+  
+
+}
+
+.header-menu {
+    float: left;
+    width: 100%;
+    position:s;
+    z-index: 999;
+    background: #fff;
+    }
+ nav .menu{
+
+    	position: sticky;
+    }
+
+
+
+/* precio descuento*/
+
+.precio-sdesc{
+	text-decoration:line-through;
+	color: #999999;
+	font-weight: 400;
+
+
+
+
+}
+
+.precio-cdesc{
+
+	color: #b94d00;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+
+.lista-promo-uno .lista-promo .promo{
+	display: block;
+}
+
+
+/* section compra por fit*/
+
+.contenedor-comprarporfit{
+	padding-top: 36px;
+
+
+}
+
+.contenedor-compraporfit .fit h3{
+	
+	color: #000000;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+
+.contenedor-compraporfit .fit p{
+
+color: #000000;
+text-align: center;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+text-transform: uppercase;
+font-family: "Montserrat",sans-serif;
+margin-top: 20px;
+}
+
+
+/* section menu-women-man*/
+
+.menu-women-men .lista-women-men li{
+
+	list-style: none;
+	color: black;
+	display: inline-block;
+	border-bottom: 2px solid #000;
+
+}
+
+.menu-women-men .lista-women-men a{
+
+	
+
+
+	 color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 38px;
+    background: #fff;
+    position: relative;
+    margin: 0;
+    padding: 0px 15px;
+    min-width: 180px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.menu-women-men{
+	text-align: center;
+}
+
+
+.menu-women-men .menu-women-men-uno .menu-women-men-dos{
+	display: block;
+
+}
+.menu-women-men .menu-women-men-uno .menu-women-men-dos{
+	display: inline-block;
+	position: relative;
+}
+
+
+.menu-women-men .menu-women-men-uno .menu-women-men-dos h4{
+
+	    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-shadow: 0 0 7px rgba(0,0,0,0.05);
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+
+/*imagenes*/
+
+.imagenes-promocion{
+	width: 100%;
+
+
+
+}
+
+
+
+
+
+/*aniversario*/
+.aniversario{
+	width: 100%;
+	padding-top: 50px;
+}
+.img-aniversario{
+	width: 100%;
+}
+
+
+
+/*aniversario*/
+
+
+.retroglory{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.retroglory .retroglory-uno h3{
+	float: left;
+    width: 100%;
+    color: #000;
+    font-family: "Montserrat",sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+
+}
+
+.retroglory .retroglory-uno span{
+	float: left;
+    width: 100%;
+    color: #000;
+    font-family: "Montserrat",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 8px 0;
+}
+
+.retroglory-dos .retroglory-lista{
+	display: block;
+}
+
+.retroglory-dos .retroglory-lista li{
+	display: inline-block;
+
+}
+
+
+.retroglory-dos .lista-dos{
+	padding-bottom: 12px;
+
+
+}
+
+.retroglory-dos{
+	display: block;
+}
+
+.img-retro{
+	display: inline-block;
+	padding: 1px;
+}
+
+/*footer de juan*/
+
+.links{
+   width: 100%;
+   text-align: center;
+   margin-top: 34px;
+}
+
+
+.web-links{
+   display: block;
+   font-size: 11px;
+}
+
+.web-links li{
+   padding: 0px 8px;
+}
+
+.web-links li a:before{
+   content:"\f105 ";
+   font: normal normal normal 14px/1 FontAwesome;        
+   font-size: 12px;
+  margin-right: 4px;
+}    
+
+.web-links li a{
+   color: black;
+}
+
+.web-links li a:hover{
+   color: gray;
+}
+
+footer li{
+   display: inline-block;
+}
+
+footer .links .social {
+  float: left;
+  width: 100%;
+  margin-top: 14px;
+   margin-bottom: 28px;
+}
+
+.social a{
+   margin: 0 13px;
+}
+
+.facebook img{
+   width: 8px;
+   height: 16px;
+}
+
+.instagram img{
+   width: 16px;
+   height: 16px;
+}
+
+.youtube img{
+   width: 23px;
+   height: 16px;
+}
+
+footer .bottom {
+  float: left;
+  width: 100%;
+  text-align: left;
+  padding-top: 27px;
+}
+
+footer .bottom .logo-sitio{
+  text-align: center;
+  position: relative;
+}
+
+footer .imgWF {
+  margin-top: -33px;
+  width: 115px;
+}
+
+footer .bottom .logo-sitio:before {
+  content: '';
+  width: 43%;
+  min-height: 1px;
+  background: #e1e1e1 ;
+  position: absolute;
+  left: 0;
+  top: 13px;
+}
+
+footer .brands{
+   float: left;
+   padding: 0 20px;
+}
+
+
+footer .bottom .logo-brandlive {
+  padding-right: 20px;
+  text-align: right;
+  padding-bottom: 50px;
+}
+
+.logo-brandlive img{
+   float: right;
+   padding-right: 20px;
+   width: 130px;
+   padding-bottom: 50px;
+
+}
+
+.lineas{
+   width: 100%;
+   z-index: -99999;
+}
+
+footer{
+   margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#extra-footer-top {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+
+#extra-footer-top .newsletter {
+  color: #000;
+  padding: 43px 0;
+  background-color: #f3f3f3 ;
+  text-align: center;
+}
+
+#extra-footer-top .newsletter h3 {
+  display: block;
+  color: #000;
+  font-family: "Montserrat",sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+
+#extra-footer-top .newsletter fieldset {
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+body #extra-footer-top .newsletter fieldset #newsletterClientEmail {
+  margin: 0 auto;
+  vertical-align: top;
+  width: 300px;
+  font-size: 13px;
+  padding: 0 0 0 15px;
+  font-weight: 400;
+  border: 1px solid #e0e0e0 ;
+  border-right: 0;
+  border-radius: 0;
+  padding: 0 10px;
+  color: #000;
+  font-family: "Montserrat",sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  min-height: 40px;
+}
+
+body #extra-footer-top .newsletter fieldset #newsletterButtonOK {
+  margin: 0 auto;
+  width: 40px;
+  color: transparent;
+  background-color: #fff;
+  border-radius: 0;
+  padding: 0;
+  border: 1px solid #e0e0e0 ;
+  border-left: 0;
+  min-height: 40px;
+  background-image: url(img/boton-input.png);
+  background-repeat: no-repeat;
+  background-position: 6px center;
+}
+
+body #extra-footer-top .newsletter fieldset {
+   margin: 0 auto;
+}
+
+/*juan css java*/
+.ir-arriba {
+ display:none;
+ position: fixed;
+ bottom: 0px;
+ right: 20px;
+ z-index: 99;
+ outline: none;
+ background-color: #fff;
+ color: #000;
+ font-size: 10px;
+ font-weight: 400;
+ cursor: pointer;
+ padding: 0 15px;
+ line-height: 30px;
+ border-radius: 3px;
+ border: 1px solid #e0e0e0 ;
+ text-decoration: none;
+}
+
+.ir-arriba:after{
+   content: "\f106";
+   font: normal normal normal 14px/1 FontAwesome;
+   font-size: 10px;
+   margin: 4px;
+}
+
+.ir-arriba:hover{
+ background-color: black;
+ color: white;
+}
